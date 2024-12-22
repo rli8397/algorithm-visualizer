@@ -1,0 +1,16 @@
+.tree-content{
+    width: 50%;
+    height:50%;
+    background-color: var(--light-color);
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.tree-level {
+    display:flex;
+    justify-content: space-evenly;
+}
+.empty-node {
+    height: 1rem;
+    width: 0.7rem;
+    padding: 1rem 1.25em;
+}
